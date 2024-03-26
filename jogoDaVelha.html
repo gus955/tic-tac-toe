@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jogoDaVelha.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Jogo da Velha</h1>
+    <hr>
+    <label for="player1">X</label>
+    <input type="text" id="player1" placeholder="Nome do Jogador...">
+    <label for="player2">O</label>
+    <input type="text" id="player2" placeholder="Nome do desafiante...">
+    <button id="start">Começar!</button>
+    <h2>Vez de: <span id="turnPlayer"></span></h2>
+    <section id="gameBoard">
+        <span data-region="0.0" class="cursor-pointer"></span>
+        <span data-region="0.1" class="cursor-pointer"></span>
+        <span data-region="0.2" class="cursor-pointer"></span>
+        <span data-region="1.0" class="cursor-pointer"></span>
+        <span data-region="1.1" class="cursor-pointer"></span>
+        <span data-region="1.2" class="cursor-pointer"></span>
+        <span data-region="2.0" class="cursor-pointer"></span>
+        <span data-region="2.1" class="cursor-pointer"></span>
+        <span data-region="2.2" class="cursor-pointer"></span>
+    </section>
+
+    <footer>
+        <p>Made by Gus with Onebitcode</p>
+        <p>Technologies: JS, CSS and HTML</p>
+    </footer>
+</body>
+</html>
